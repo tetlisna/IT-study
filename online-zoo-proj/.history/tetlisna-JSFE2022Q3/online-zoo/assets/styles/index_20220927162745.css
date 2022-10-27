@@ -1,0 +1,26 @@
+@import url(/tetlisna-JSFE2022Q3/online-zoo/pages/main/main.css);
+:root {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+  /* Colors */
+    --yellow-color:#FFEE2E;
+    --green-color:#4B9200;
+    --orange-color:#F9804B;
+    --black-blue-color:#333B41;
+    --orange-grad-color:#FED290;
+    --pink-gradient-color:#FEBDAB; 
+    --red-color:#D31414;
+    --gray-color:#767474;
+    --gray-light-color:#F1F3F2;
+    --white-frosted-color:#FDFDFF;
+    /* --max-with-container: 1200px; */
+
+ 
+    --default-btn:
+
+  }
+ /* Buttons */
+ .btn.orange{
+  
+ }

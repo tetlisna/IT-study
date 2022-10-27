@@ -1,0 +1,135 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(/tetlisna-JSFE2022Q3/online-zoo/assets/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(/tetlisna-JSFE2022Q3/online-zoo/assets/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(/tetlisna-JSFE2022Q3/online-zoo/assets/fonts/Roboto-Thin.ttf);
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(/tetlisna-JSFE2022Q3/online-zoo/assets/fonts/Roboto-Medium.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1600px;
+  /* margin: auto; */
+}
+ul,
+a {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+
+  margin-top: 20px;
+  line-height: 22.4px;
+}
+p {
+  color: var(--text-color-black);
+  line-height: 22.4px;
+}
+.list {
+  padding: 29px;
+  font-family: Roboto-Regular;
+}
+
+/*****----Navigation----*****/
+.menu {
+  display: flex;
+  text-align: center;
+  color: #fff;
+  background-color: black;
+  height: 80px;
+  padding-left: 220px;
+}
+
+img .logo {
+  display: block;
+  margin: 14px;
+  padding-left: 34px;
+  width: 82px;
+  height: 52px;
+}
+/*****----After-Navigation----*****/
+
+.panda {
+  position: relative;
+  display: block;
+  height: 780px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: url(/tetlisna-JSFE2022Q3/online-zoo/assets/images/GiantPanda.png);
+}
+
+.header2 {
+  font-family: Roboto-Regular;
+  color: var(--text-color-black);
+}
+.header3 {
+  font-size: 24px;
+  font-family: Roboto-Regular;
+  width: 217px;
+  height: 29px;
+  color: var(--text-color-black);
+}
+.large {
+  position: absolute;
+  line-height: 75%;
+  top: 92px;
+  width: 500px;
+  height: 400px;
+  font-size: 106px;
+  left: calc(50% - 465px / 2 + 239.5px);
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0em;
+}
+.yellow {
+  color: var(--yellow-color);
+}
+.watch-online panda {
+  position: absolute;
+  top: 92px;
+}
+.circle {
+  position: relative;
+  /* display: flex; */
+  width: 465px;
+  height: 465px;
+  left: calc(50% - 465px / 2 + 239.5px);
+  top: 92px;
+  border-radius: 50%;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+}
+
+.ft1 {
+  position: relative;
+  left: 900px;
+  margin-top: 150px;
+}
+.ft2 {
+
+}
+.article {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  margin: auto;
+  padding-top: 140px;
+  padding-bottom: 180px;
+}
+.backstage {
+  padding-right: 87px;
+}
+.orange {
+  background: var(--linear-gradient-orange);
+}

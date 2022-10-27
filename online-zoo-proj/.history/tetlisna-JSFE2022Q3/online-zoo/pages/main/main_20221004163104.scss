@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+}
+
+p {
+  color: var(--text-color-black);
+  line-height: 22.4px;
+}
+.menu__link {
+  padding: 29px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  line-height: 22.4px;
+}
+.menu__link:hover {
+  color: var(--orange-color-light);
+}
+/*****----Navigation----*****/
+.nav {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__logo {
+  position: relative;
+  display: flex;
+  margin: 14px 0;
+  padding-left: 34px;
+  width: 82px;
+  height: 52px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  margin-right: 63px;
+}
+.nav__link {
+  text-decoration: none;
+}
+.nav__img {
+  position: absolute;
+  top: 22px;
+  left: 9px;
+  box-sizing: border-box;
+}
+.nav__logo_txt {
+  position: relative;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  right: 30px;
+  bottom: 10px;
+  line-height: 120%;
+  text-align: center;
+}
+/*****----After-Navigation----*****/
+
+.watch-online__header {
+  font-size: 48px;
+  line-height: 57.6px;
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color-black);
+  padding-bottom: 20px;
+}
+.header3 {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color-black);
+  padding-bottom: 34px;
+  padding-top: 54px;
+}
+.watch-online__header {
+  line-height: 75%;
+  top: 92px;
+  width: 500px;
+  height: 400px;
+  font-size: 106px;
+  font-weight: 700;
+  left: calc(50% - 465px / 2 + 239.5px);
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+.yellow {
+  color: var(--yellow-color);
+}
+
+.circle {
+  position: absolute;
+  display: flex;
+  width: 465px;
+  height: 465px;
+  left: calc(50% - 465px / 2 + 239.5px);
+  top: 92px;
+  border-radius: 50%;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+}
+.btn-loc-ft1 {
+  display: flex;
+  justify-content: baseline;
+}
+
+.article {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  margin: auto;
+  padding-top: 140px;
+  padding-bottom: 180px;
+}
+.backstage-img {
+  overflow: hidden;
+  padding-right: 87px;
+}
+.orange {
+  background: var(--orange-color-light);
+}
+.menu__link_active {
+  color: var(--orange-color-light);
+}
+
+/*****----sections----*****/
+
+.ft1 {
+  position: relative;
+  background-image: url(/tetlisna-JSFE2022Q3/online-zoo/assets/images/GiantPanda.png);
+  height: 780px;
+  background-size: cover;
+}
+.ft1-loc {
+  position: absolute;
+  left: calc(50% - 465px / 2 + 239.5px);
+  /* padding-bottom: 500px; */
+}
+.ft2 {
+  background-image: url(/tetlisna-JSFE2022Q3/online-zoo/assets/images/flower_foto1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.ft3 {
+  background: url(/tetlisna-JSFE2022Q3/online-zoo/assets/images/palm_foto.png)
+      left bottom no-repeat,
+    url(/tetlisna-JSFE2022Q3/online-zoo/assets/images/strelitzia1.png) right
+      bottom no-repeat;
+  padding-bottom: 180px;
+  position: relative;
+}
+.ft3 bg-img-flow {
+  background: url(/tetlisna-JSFE2022Q3/online-zoo/assets/images/strelitzia1.png);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.ft4 {
+  background-color: var(--pink-gradient-color);
+  opacity: 0.9;
+}
+
+
+
+.animal-container {
+  display: flex;
+//   flex-direction: column;
+  justify-content: center;
+  margin: 0 25px;
+}
+.card-animal-boxes {
+  display: grid;
+  position: relative;
+  grid-template-areas:
+    "a b c"
+    "d e f";
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card-animal-box.box-a {
+  grid-template-areas: "a";
+  grid-row-start: "a";
+  grid-row-end: "a";
+  grid-column-start: "a";
+  grid-column-end: "a";
+}
+.card-animal-box.box-b {
+  grid-template-areas: "b";
+  grid-row-start: "b";
+  grid-row-end: "b";
+  grid-column-start: "b";
+  grid-column-end: "b";
+}
+.card-animal-box.box-c {
+  grid-template-areas: "c";
+  grid-row-start: "c";
+  grid-row-end: "c";
+  grid-column-start: "c";
+  grid-column-end: "c";
+}
+.card-animal__desc {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: "Roboto", sans-serif;
+}
+
+.card-animal__img_wrapper {
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+.card-animal__title {
+    display: flex;
+    justify-content: center;
+
+
+  text-transform: uppercase;
+  line-height: 140%;
+}
+
+.card-animal__txt {
+    display: flex;
+    justify-content: center;
+
+
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  line-height: 120%;
+}
+
+.card-animal__wrapper {
+    display: flex;
+    justify-content: center;
+
+
+  color: black;
+}
+
+.card-animal-box {
+  border: 1px solid var(--orange-color-light);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+}
+
+.arrow-boxes {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  position: relative;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+}
+.arrow-box.arrow-left {
+  transform: rotate(-180deg);
+}
+.arrow-right {
+  position: absolute;
+  border: none;
+  top: 37.1%;
+  left: 37.1%;
+  right: 43.55%;
+  bottom: 43.55%;
+}
+.arrow-left {
+  position: absolute;
+  border: none;
+  top: 37.1%;
+  left: 37.1%;
+  right: 43.55%;
+  bottom: 43.55%;
+}
+
+.pick-feed-title {
+    display: flex;
+    justify-content: center;
+
+  font-size: 42px;
+  color: var(--orange-color-light);
+}

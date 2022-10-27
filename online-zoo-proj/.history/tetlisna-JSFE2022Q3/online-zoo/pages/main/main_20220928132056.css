@@ -1,0 +1,108 @@
+@font-face {
+    font-family:Roboto-Regular;
+    src: url(/tetlisna-JSFE2022Q3/online-zoo/assets/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family:Roboto-Bold;
+    src: url(/tetlisna-JSFE2022Q3/online-zoo/assets/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family:Roboto-Thin;
+    src: url(/tetlisna-JSFE2022Q3/online-zoo/assets/fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family:Roboto-Medium;
+    src: url(/tetlisna-JSFE2022Q3/online-zoo/assets/fonts/Roboto-Medium.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1600px;
+    margin: auto;
+}
+ul,a {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    line-height: 22.4px;
+    font-family: Roboto-Bold;
+    
+}
+
+/*****----Navigation----*****/
+.menu {
+    display: flex;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    height: 80px;
+    padding-left: 200px;
+
+}
+
+.logo {
+    display: flex;
+    box-sizing: border-box;
+    display: block;
+    margin: 10px;
+}
+/*****----After-Navigation----*****/
+
+
+.panda {
+  /* position: absolute; */
+  display: block;
+  height: 780px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: url(/tetlisna-JSFE2022Q3/online-zoo/assets/images/GiantPanda.png);
+}
+.header2{
+    position: relative;
+    font-size: 106px;
+    font-family: Roboto-Regular;
+    line-height: 80px;
+    letter-spacing: 0em;
+    color: #fff;
+    top: 90px;
+    width: 500px;
+    height: 400px;
+    left: 880px;
+    text-transform: uppercase;
+}
+.yellow {
+    color: var(--yellow-color);
+}
+.watch-online panda {
+    position: absolute;
+    display: flex;
+    left: 800px;
+    top:92px;
+}
+.circle {
+    position: absolute;
+    display: flex;
+    width: 465px;
+    height: 465px;
+    left: 800px;
+    top:92px;
+    border-radius: 50%;
+    background-color: var(--orange-color);
+}
+
+
+.ft1 {
+    position: absolute;
+    left: 900px;
+    margin-top: 150px;
+}
+
+.orange {
+    background-color: var(--orange-color);
+}

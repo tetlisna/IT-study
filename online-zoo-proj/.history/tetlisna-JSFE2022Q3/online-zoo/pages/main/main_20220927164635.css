@@ -1,0 +1,93 @@
+@font-face {
+    font-family:Roboto-Regular;
+    src: url(/tetlisna-JSFE2022Q3/online-zoo/assets/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family:Roboto-Bold;
+    src: url(/tetlisna-JSFE2022Q3/online-zoo/assets/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family:Roboto-Thin;
+    src: url(/tetlisna-JSFE2022Q3/online-zoo/assets/fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family:Roboto-Medium;
+    src: url(/tetlisna-JSFE2022Q3/online-zoo/assets/fonts/Roboto-Medium.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Roboto-Regular;
+}
+.container {
+    max-width: 1600px;
+    margin: auto;
+}
+ul,a {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin-top: 30px;
+    line-height: 22.4px;
+    font-family: Roboto-Bold;
+}
+
+
+
+
+/*****----Navigation----*****/
+.menu {
+    display: flex;
+    justify-content: space-start;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    min-height: 80px;
+    padding-left: 200px;
+
+}
+
+.logo {
+    display: flex;
+    box-sizing: border-box;
+    display: block;
+    margin: 10px;
+}
+/*****----After-Navigation----*****/
+
+
+.panda {
+  /* position: absolute; */
+  display: block;
+  height: 780px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: url(/tetlisna-JSFE2022Q3/online-zoo/assets/images/GiantPanda.png);
+}
+.header2{
+    position: relative;
+    font-size: 106px;
+    font-family: Roboto-Bold;
+    line-height: 80px;
+    letter-spacing: 0em;
+    color: #fff;
+    top: 166px;
+    width: 500px;
+    height: 400px;
+    left: 880px;
+    text-transform: uppercase;
+}
+.yellow {
+    color: var(--yellow-color);
+}
+.circle {
+    position: absolute;
+    width: 465px;
+    height: 465px;
+    left:calc(50%-465px/2 + 239.5px);
+    top:92px;
+    background-color: linea;
+}

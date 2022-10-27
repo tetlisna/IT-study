@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+
+}
+.container{
+    max-width: 1600px;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.logo {
+    box-sizing: border-box;
+    display: block;
+    margin: 10px;
+}
+.menu {
+    color: #fff;
+}
+.nav {    
+    display: flex; 
+    background-color: black;
+    min-height: 80px;
+    color: #fff;
+}
+.panda {
+  /* position: absolute; */
+  display: block;
+  height: 400px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: url(/online-zoo/assets/images/GiantPanda.png);
+}
+.header2{
+    position: relative;
+    font-size: 106px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #fff;
+    padding: 40px;
+    width: 100px;
+    left: 1000px;
+
+}
